@@ -3,7 +3,7 @@ permalink: /
 
 
 title: "Hi, I'm Mozhgan"
-title: "an architectural engineer and historic preservationist exploring how digital technologies can transform the study of built heritage."
+       "an architectural engineer and historic preservationist exploring how digital technologies can transform the study of built heritage."
 author_profile: true
 redirect_from: 
   - /about/
