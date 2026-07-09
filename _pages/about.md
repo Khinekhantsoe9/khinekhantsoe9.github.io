@@ -8,7 +8,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-### An architectural engineer and historic preservationist exploring how digital technologies can transform the study of built heritage.
+An architectural engineer and historic preservationist exploring how digital technologies can transform the study of built heritage.
+
 
 My research lies at the intersection of **Digital Heritage, Construction History, Historic Preservation, and Digital Humanities**. I am interested in using photogrammetry, archival research, spatial data, and computational methods to document, interpret, and preserve historic buildings and traditional construction knowledge.
 
