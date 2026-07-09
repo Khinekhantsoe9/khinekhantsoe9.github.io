@@ -1,16 +1,14 @@
 {% include base_path %}
 
-<!-- start custom head snippets -->
-
 <!-- Support for Academicons -->
 <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></noscript>
 
 <!-- Support for Font Awesome -->
- <link rel="preload" href="{{ base_path }}/assets/css/fontawesome.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ base_path }}/assets/css/fontawesome.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="{{ base_path }}/assets/css/fontawesome.css"></noscript>
 
-<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+<!-- Favicons -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
@@ -19,10 +17,9 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="var(--global-bg-color)"/>
 
-<!-- end custom head snippets -->
+<!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
@@ -31,7 +28,7 @@ h1, h2, h3, h4, h5, h6,
 .site-title,
 .author__name {
     font-family: "Space Grotesk", sans-serif !important;
-    font-weight: 600;
+    font-weight: 500 !important;
 }
 
 body,
@@ -42,25 +39,19 @@ li,
 .author__bio,
 .author__urls {
     font-family: "IBM Plex Sans", sans-serif !important;
-    font-weight: 400;
-    line-height: 1.8;
-}
-</style>
-<style>
-
-body {
-    font-family: "IBM Plex Sans", sans-serif !important;
+    font-weight: 400 !important;
 }
 
 .page__title,
 h1 {
     font-size: 1.5rem !important;
-    font-weight: 400;
 }
 
 .page__content p {
-    font-size: 1.0rem !important;
-    line-height: 1.3;
+    font-size: 1rem !important;
+    line-height: 1.55 !important;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .author__name {
@@ -68,19 +59,6 @@ h1 {
 }
 
 .greedy-nav a {
-    font-size: 1.0rem !important;
+    font-size: 1rem !important;
 }
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<style>
-
-@media (min-width:768px) {
-    .page__content p,
-    .page__content li {
-        text-align: justify;
-        text-justify: inter-word;
-    }
-}
-
 </style>
